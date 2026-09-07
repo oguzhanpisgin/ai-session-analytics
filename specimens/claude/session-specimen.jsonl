@@ -1,0 +1,17 @@
+{"parentUuid":null,"isSidechain":false,"promptId":"<uuid>","type":"user","message":{"role":"user","content":"<str>"},"uuid":"<uuid>","timestamp":"<iso8601>","permissionMode":"<str>","promptSource":"<str>","userType":"<str>","entrypoint":"<str>","cwd":"<abs-path>","sessionId":"<uuid>","version":"<semver>","gitBranch":"<str>"}
+{"parentUuid":"<uuid>","isSidechain":false,"type":"user","message":{"role":"user","content":[{"type":"tool_result","is_error":false,"content":"<str>"}]},"uuid":"<uuid>","timestamp":"<iso8601>","sessionId":"<uuid>","version":"<semver>","gitBranch":"<str>"}
+{"parentUuid":"<uuid>","isSidechain":false,"type":"assistant","message":{"role":"assistant","model":"<str>","content":[{"type":"text","text":"<str>"}]},"apiBlockIndex":<int>,"requestId":"<req-id>","uuid":"<uuid>","timestamp":"<iso8601>","effort":"<str>","userType":"<str>","entrypoint":"<str>","cwd":"<abs-path>","sessionId":"<uuid>","version":"<semver>","gitBranch":"<str>"}
+{"parentUuid":"<uuid>","isSidechain":false,"type":"assistant","message":{"role":"assistant","content":[{"type":"tool_use","name":"<str>","input":{}}]},"uuid":"<uuid>","timestamp":"<iso8601>","sessionId":"<uuid>","version":"<semver>","gitBranch":"<str>"}
+{"type":"ai-title","aiTitle":"<str>","sessionId":"<uuid>"}
+{"type":"atis-latch","atis":{},"sessionId":"<uuid>"}
+{"type":"last-prompt","lastPrompt":"<str>","leafUuid":"<uuid>","sessionId":"<uuid>"}
+{"type":"queue-operation","operation":"<str>","timestamp":"<iso8601>","sessionId":"<uuid>","content":{}}
+{"parentUuid":"<uuid>","isSidechain":false,"attachment":{},"type":"attachment","uuid":"<uuid>","timestamp":"<iso8601>","rendered":"<str>","userType":"<str>","entrypoint":"<str>","cwd":"<abs-path>","sessionId":"<uuid>","version":"<semver>","gitBranch":"<str>"}
+{"type":"custom-title","customTitle":"<str>","sessionId":"<uuid>"}
+{"type":"mode","mode":"<str>","sessionId":"<uuid>"}
+{"type":"frame-link","sessionId":"<uuid>"}
+{"type":"bridge-session","sessionId":"<uuid>"}
+{"type":"pr-link","sessionId":"<uuid>"}
+{"type":"artifact-comment-monitor","sessionId":"<uuid>"}
+{"type":"artifact-autoreact-ledger","sessionId":"<uuid>"}
+{"type":"agent-setting","sessionId":"<uuid>"}

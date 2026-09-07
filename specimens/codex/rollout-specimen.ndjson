@@ -1,0 +1,16 @@
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"session_meta","payload":{"session_id":"<uuid>","id":"<uuid>","timestamp":"<iso8601>","cwd":"<abs-path>","originator":"<str>","cli_version":"<semver>","source":"<str>","thread_source":"<str>","model_provider":"<str>"}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"<str>"}]}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"<str>"}]}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"response_item","payload":{"type":"reasoning","summary":[]}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"response_item","payload":{"type":"custom_tool_call","name":"<str>","input":{}}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"response_item","payload":{"type":"custom_tool_call_output","output":"<str>"}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"response_item","payload":{"type":"function_call","name":"<str>","arguments":"<json-str>"}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"response_item","payload":{"type":"function_call_output","output":"<str>"}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"response_item","payload":{"type":"web_search_call","status":"<str>","action":{}}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"event_msg","payload":{"type":"user_message","message":"<str>"}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"event_msg","payload":{"type":"agent_message","message":"<str>"}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"event_msg","payload":{"type":"token_count","info":{}}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"item_completed","payload":{}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"token_usage_record","payload":{}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"path","payload":{}}
+{"timestamp":"<iso8601>","ordinal":<int>,"type":"unknown","payload":{}}

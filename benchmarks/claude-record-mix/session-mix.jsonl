@@ -1,0 +1,4 @@
+{"parentUuid":null,"isSidechain":false,"type":"user","message":{"role":"user","content":"<str>"},"uuid":"<uuid>","timestamp":"<iso8601>","sessionId":"<uuid>","version":"<semver>","gitBranch":"<str>"}
+{"type":"ai-title","aiTitle":"<str>","sessionId":"<uuid>"}
+{"parentUuid":"<uuid>","isSidechain":false,"type":"assistant","message":{"role":"assistant","content":[{"type":"text","text":"<str>"}]},"uuid":"<uuid>","timestamp":"<iso8601>","sessionId":"<uuid>","version":"<semver>","gitBranch":"<str>"}
+{"type":"queue-operation","operation":"<str>","timestamp":"<iso8601>","sessionId":"<uuid>","content":{}}
